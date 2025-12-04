@@ -7,6 +7,7 @@ asdasadasda
 ad
 int main()
 {
-    cout << "Hello world! sa" << endl;
+    cout << "Hello world!" << endl;
     return 0;
+    galo jdaeidja
 }
