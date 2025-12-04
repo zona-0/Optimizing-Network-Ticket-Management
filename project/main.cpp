@@ -7,5 +7,7 @@ int main()
     asdasdasdas
     return 0;
     galo jdaeidja
+    asdasdasdasadas
+    asdasdasdas
     asdawdhiawhi
 }
