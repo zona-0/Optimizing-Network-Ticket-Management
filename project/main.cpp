@@ -1,13 +1,9 @@
 #include <iostream>
 
 using namespace std;
-aklsjdklasjldkas
-asdasda
-asdasadasda
-ad
 int main()
 {
-    cout << "Hello world!" << endl;
+    cout << "Hello world! sa" << endl;
+    asdasdasdas
     return 0;
-    galo jdaeidja
 }
