@@ -1,3 +1,6 @@
+// Use this command to compile 
+//cd "d:\TicketBetax\TicketBeta\" ; if ($?) { g++ main.cpp lib_one.cpp -o main } ; if ($?) { .\main }
+
 #include <iostream>
 #include "ticketh.h"
 using namespace std;
@@ -10,7 +13,7 @@ int main()
     Ticket newTicket;
 
     while (choice != 0) {
-        cout << "In (1-6): ";
+        cout << "Input: ";
         cin >> choice;
 
         if (choice == 1) {
@@ -21,7 +24,7 @@ int main()
         }
 
         else if (choice == 2) {
-            cout << "Search Val: ";
+            cout << "In Searching: ";
             cin >> priorityLevel;
 
             if (searchTicket(root, priorityLevel)) {
@@ -32,7 +35,7 @@ int main()
         }
 
         else if (choice == 3) {
-            cout << "Delete Val: ";
+            cout << "In Delete: ";
             cin >> priorityLevel;
 
             deleteTicket(root, priorityLevel);
