@@ -13,7 +13,7 @@ int main()
     Ticket newTicket;
 
     while (choice != 0) {
-        cout << "Input: ";
+        cout << "In (1-6): ";
         cin >> choice;
 
         if (choice == 1) {
@@ -24,7 +24,7 @@ int main()
         }
 
         else if (choice == 2) {
-            cout << "In Searching: ";
+            cout << "Search Val: ";
             cin >> priorityLevel;
 
             if (searchTicket(root, priorityLevel)) {
@@ -35,7 +35,7 @@ int main()
         }
 
         else if (choice == 3) {
-            cout << "In Delete: ";
+            cout << "Del Val: ";
             cin >> priorityLevel;
 
             deleteTicket(root, priorityLevel);
@@ -62,7 +62,7 @@ int main()
         }
 
         else if (choice == 6) {
-            cout << "Inorder test: ";
+            cout << "out tree: ";
             inorder(root);
             cout << endl;
         }
