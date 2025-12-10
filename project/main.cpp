@@ -1,4 +1,4 @@
-g// Use this command to compile 
+// Use this command to compile 
 //cd "d:\TicketBetax\TicketBeta\" ; if ($?) { g++ main.cpp lib_one.cpp -o main } ; if ($?) { .\main }
 
 #include <iostream>
