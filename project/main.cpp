@@ -21,7 +21,7 @@ int main()
         }
 
         else if (choice == 2) {
-            cout << "In Searching: ";
+            cout << "Search Val: ";
             cin >> priorityLevel;
 
             if (searchTicket(root, priorityLevel)) {
@@ -32,7 +32,7 @@ int main()
         }
 
         else if (choice == 3) {
-            cout << "In Delete: ";
+            cout << "Delete Val: ";
             cin >> priorityLevel;
 
             deleteTicket(root, priorityLevel);
