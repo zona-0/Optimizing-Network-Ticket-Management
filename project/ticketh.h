@@ -2,30 +2,25 @@
 #define TICKETH_H_INCLUDED
 
 #include <iostream>
-using namespace std;
+#include <string>
 
-struct Ticket{
-    int priorityLevel;
-    string ticketID, description, customerName, issueType;
+typedef struct Publikasi* adrPublikasi;
+
+struct Publikasi{
+    string judul;
+    int tahun; 
+    string kategori;
+    adrPublikasi next;
+
 };
 
-struct Node{
-    Ticket info;
-    Node* left;
-    Node* right;
-};
+adrPublikasi createPublikasi(string judul, int tahun, string kategori){
+    Publikasi *p = new publikasi;
+    p->judul = judul;
+    
 
-typedef Node* TreePointer;
 
-//TODO: lib_one file
-TreePointer createNode(Ticket newTicket);
-TreePointer searchTicket(TreePointer root, int priorityLevel);
-TreePointer findMinimum(TreePointer root);
-TreePointer findMaximum(TreePointer root);
-void inorder(TreePointer root);
+}
 
-//TODO: Lib_two file
-void insertTicket(TreePointer &root, Ticket newTicket);
-void deleteTicket(TreePointer &root, int priorityLevel);
 
 #endif // TICKETH_H_INCLUDED
